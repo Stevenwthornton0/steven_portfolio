@@ -1,0 +1,19 @@
+.weddingPhoto2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.weddingPhoto2 > img {
+    width: 100%;
+    border: 2px solid rgb(173, 172, 172);
+    border-radius: 3px;
+}
+
+.text3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}

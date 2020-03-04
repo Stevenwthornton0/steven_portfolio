@@ -1,0 +1,18 @@
+.contactIcons {
+    height: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 20px;
+    padding: 16px;
+    color: white;
+}
+
+.footer {
+    background-color: #FF6900;
+}

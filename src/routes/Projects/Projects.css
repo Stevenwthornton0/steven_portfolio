@@ -1,0 +1,20 @@
+.projectsTitle {
+    color: #212121;
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 500px) {
+    .projectsTitle {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
+}

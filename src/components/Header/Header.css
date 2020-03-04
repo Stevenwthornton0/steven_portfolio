@@ -1,0 +1,110 @@
+.header {
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+.mobile {
+    display: none;
+}
+
+.topNav {
+    display: none;
+}
+
+.hamburger {
+    position: absolute;
+    right: 0;
+    line-height: 2em;
+    padding: 1px 20px 1px 20px;
+    font-size: 23px;
+    color: white;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.dropdown {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 50px;
+    width: 60%;
+    background-color: #FF6900;
+    border-radius: 2px;
+}
+
+.dropdown > a {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.dropdown > a:first-child {
+    border-bottom: none;
+}
+
+.dropdown > a:last-child {
+    border-top: none;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.navigation > a {
+    width: fit-content;
+    line-height: 2em;
+    font-size: 24px;
+    padding: 1px 20px 1px 0;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;  
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+@media screen and (min-width: 500px) {
+    .hamburger {
+        display: none;
+    }
+
+    .topNav {
+        display: block;
+        width: fit-content;
+        position: absolute;
+        right: 0;
+    }
+
+    .topNav > div {
+        margin: 0;
+    }
+
+    .topNav a {
+        padding: 14px 50px 14px 50px;
+        padding-top: 20px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+
+    .topNav a:hover {
+        cursor: pointer;
+        background-color: rgb(252, 136, 54);
+    }
+
+    .navigation > a:hover {
+        color: #212121
+    }
+}
