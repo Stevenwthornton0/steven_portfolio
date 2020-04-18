@@ -23,4 +23,13 @@
 .top {
     margin-top: 50px;
 }
+.mobile {
+    display: none;
+}
+
+@media screen and (min-width: 500px) {
+    .mobile {
+        display: block;
+    }
+}
 

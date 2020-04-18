@@ -90,6 +90,7 @@
 
     .text1 {
         font-size: 24px;
+        line-height: 1.5em;
     }
 
     .text2 {
@@ -104,5 +105,15 @@
 
     .languageIcons {
         margin-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon-container {
+        width: 100%
+    }
+
+    .icon-container > img:last-child {
+        margin-top: 15px;
     }
 }
