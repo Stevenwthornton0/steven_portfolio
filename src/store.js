@@ -32,7 +32,7 @@ const projects = [
 
     {
         id: 3,
-        name: 'Marvel Character Search',
+        name: 'Marvel Search Engine',
         screenshot: Marvel,
         about: "This is a web application that allows the user to look up any character in the Marvel comic universe by character name, comic title, or event in the universe. This app accesses Marvel's API.",
         live: 'https://stevenwthornton0.github.io/API-Capstone/',
