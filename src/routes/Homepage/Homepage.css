@@ -35,10 +35,6 @@
     align-items: center;
 }
 
-.icon-container > img {
-    width: 40px;
-}
-
 .container {
     margin-top: 28px;
     display: flex;
