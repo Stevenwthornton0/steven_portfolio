@@ -33,11 +33,11 @@ class Homepage extends Component {
                     <div className='languageIcons'>
                         <p>Skills: </p>
                         <div className='icon-container'>
-                            <img src={HTML5} alt="HTML5 Logo" />
-                            <img src={CSS3} alt="CSS Logo" />
-                            <img src={JavaScript} alt="JavaScript Logo" />
-                            <img src={react} alt="React Logo" />
-                            <img src={Nodejs} alt="NodeJS Logo" />
+                            <img src={HTML5} alt="HTML5 Logo" width="40" height="40" />
+                            <img src={CSS3} alt="CSS Logo" width="40" height="40" />
+                            <img src={JavaScript} alt="JavaScript Logo" width="40" height="40" />
+                            <img src={react} alt="React Logo" width="40" height="40" />
+                            <img src={Nodejs} alt="NodeJS Logo" width="40" height="44" />
                         </div>
                     </div>
                 </div>
