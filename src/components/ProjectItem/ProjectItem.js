@@ -22,12 +22,12 @@ class ProjectItem extends Component {
                 <p>{project.about}</p>
                 <div className='techIcons'>
                     <p>Tech: </p>
-                    <img src={HTML5} alt="HTML5 Logo" />
-                    <img src={CSS3} alt="CSS Logo" />
-                    <img src={JavaScript} alt="JavaScript Logo" />
-                    {project.react && <img src={react} alt="React Logo" />}
-                    {project.node && <img src={Nodejs} alt="NodeJS Logo" />}
-                    {project.jQuery && <img className='jquery' src={jQuery} alt="jQuery Logo" />}
+                    <img src={HTML5} alt="HTML5 Logo" width="40" height="40"/>
+                    <img src={CSS3} alt="CSS Logo" width="40" height="40"/>
+                    <img src={JavaScript} alt="JavaScript Logo" width="40" height="40"/>
+                    {project.react && <img src={react} alt="React Logo" width="40" height="40"/>}
+                    {project.node && <img src={Nodejs} alt="NodeJS Logo" width="40" height="40"/>}
+                    {project.jQuery && <img className='jquery' src={jQuery} alt="jQuery Logo" width="40" height="40"/>}
                 </div>
                 <div className='links'>
                     <a target='_blank' rel="noopener noreferrer" href={project.live}>Live App</a>
