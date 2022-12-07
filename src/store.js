@@ -9,7 +9,7 @@ const projects = [
         name: 'ServicePRO App',
         screenshot: ServicePRO,
         about: "A fully-responsive full-stack web application with authentication that bridges the connection between local service providers and their customers. Users are able to register, search for, and review various businesses both local and national.",
-        live: 'https://servicepro-app.now.sh/',
+        live: 'https://service-pro-client.vercel.app/',
         client: 'https://github.com/Stevenwthornton0/servicepro_client',
         server: 'https://github.com/Stevenwthornton0/servicepro_server',
         jQuery: false,
