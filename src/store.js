@@ -22,7 +22,7 @@ const projects = [
         name: 'Brewbook App',
         screenshot: Brewbook,
         about: "A fully-responsive full-stack web application with authentication that allows a registered user to search for breweries based on their location: city and state. Users are encouraged to leave reviews of the breweries they've visited for others to read.",
-        live: 'https://brewbook-app.now.sh/',
+        live: 'https://brewbook-82f41g4h9-stevenwthornton0.vercel.app/',
         client: 'https://github.com/Stevenwthornton0/Brewbook_client',
         server: 'https://github.com/Stevenwthornton0/Brewbook_server',
         jQuery: false,
